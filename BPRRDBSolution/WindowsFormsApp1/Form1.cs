@@ -20,6 +20,7 @@ namespace WindowsFormsApp1
         private void quitButton_Click(object sender, EventArgs e)
         {
             Close();
+            Console.WriteLine("Prcat");
         }
     }
 }
