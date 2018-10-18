@@ -51,6 +51,7 @@
             this.execUser.TabIndex = 0;
             this.execUser.Text = "I am an Execution User";
             this.execUser.UseVisualStyleBackColor = true;
+            this.execUser.Click += new System.EventHandler(this.execUser_Click);
             // 
             // salesUser
             // 
@@ -63,6 +64,7 @@
             this.salesUser.TabIndex = 1;
             this.salesUser.Text = "I am a Sales User";
             this.salesUser.UseVisualStyleBackColor = true;
+            this.salesUser.Click += new System.EventHandler(this.salesUser_Click);
             // 
             // quitButton
             // 
@@ -102,7 +104,7 @@
             this.panel1.Size = new System.Drawing.Size(640, 379);
             this.panel1.TabIndex = 4;
             // 
-            // Form1
+            // InitialForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -112,8 +114,9 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(2);
-            this.Name = "Form1";
+            this.Name = "InitialForm";
             this.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Risk Database";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel1.ResumeLayout(false);

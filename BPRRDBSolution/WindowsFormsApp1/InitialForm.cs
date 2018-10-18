@@ -22,5 +22,16 @@ namespace WindowsFormsApp1
             Close();
             Console.WriteLine("Prcat");
         }
+
+        private void execUser_Click(object sender, EventArgs e)
+        {
+            executionForm execForm = new executionForm();
+            execForm.Show();
+        }
+
+        private void salesUser_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Available soon!", "Sales Projects", MessageBoxButtons.OK);
+        }
     }
 }
